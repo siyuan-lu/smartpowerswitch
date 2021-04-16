@@ -1,0 +1,48 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+<image class="common-panel-backgroud" src="{{forest}}" />
+<navbar device_name="{{device_name}}" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<view class="common-panel-header">
+
+
+
+
+
+
+
+
+  <text style="position: relative; left: 421rpx; top: -127rpx; width: 240rpx; height: 141rpx; display: block; box-sizing: border-box">电源功率曲线</text>
+  <text style="position: relative; left: -106rpx; top: -32rpx; width: 404rpx; height: 190rpx; display: block; box-sizing: border-box">当前功率=753.5W 当前温度= 33.5°C</text>
+  <image style="position: relative; width: 610rpx; height: 319rpx; display: block; box-sizing: border-box; left: -75rpx; top: 104rpx"
+    src="https://img-blog.csdnimg.cn/img_convert/acec9ced98554545e052cf80c2e1fae6.png" />
+</view>
+<button type="primary" style="position: relative; left: -256rpx; top: 38rpx">关闭电源</button>
+<button type="default" style="position: relative; left: -256rpx; top: 91rpx">重置定时器</button>
+<text style="position: relative; left: 258rpx; top: -19rpx; width: 474rpx; height: 66rpx; display: flex; box-sizing: border-box" class="statuslist">定时器倒计时=00：15：20</text>
+<icon style="position: relative; left: 308rpx; top: -244rpx" type="success" size="46"></icon>
+<button type="default" style="position: relative; left: -256rpx; top: -19rpx">重设目标温度</button>
+<image style="position:relative;" src="https://upload.wikimedia.org/wikipedia/commons/3/33/PID_Compensation_Animated.gif"/>
+<text style="position: relative; left: 441rpx; top: -993rpx">正在运行</text>
+<text style="position: relative; left: 279rpx; top: -709rpx">目标温度=37度</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
